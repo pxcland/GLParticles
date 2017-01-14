@@ -71,7 +71,7 @@ void renderParticles(Particle* p)
 	}
 }
 
-void renderUI()
+void renderUI(void)
 {
 	float xO = 5;		/* X offset */
 	float yO = 370;		/* Y offset */
