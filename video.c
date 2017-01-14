@@ -10,7 +10,7 @@
 const int		screenW = 640;
 const int		screenH = 480;
 const int		bpp		= 32;
-const Uint32	flags	= SDL_OPENGL;
+const Uint32		flags	= SDL_OPENGL;
 
 int initialize(int width, int height, int bpp, Uint32 flags)
 {
