@@ -18,6 +18,6 @@ int initialize(int width, int height, int bpp, Uint32 flags);
 void close(void);
 void renderEmitter(Emitter e);
 void renderParticles(Particle* p);
-void renderUI();
+void renderUI(void);
 
 #endif
