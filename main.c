@@ -29,22 +29,22 @@ int main(int argc, char* argv[])
 	}
 	printf("Initialized emitter.\n");
 
-	initEmitter(&emitter,
-				screenW/2.0f,
-				screenH/2.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				0.0f,
-				EMITTING);
+	initEmitter(	&emitter,
+			screenW/2.0f,
+			screenH/2.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			0.0f,
+			EMITTING);
 
 	initParticles(particles,emitter);
 
